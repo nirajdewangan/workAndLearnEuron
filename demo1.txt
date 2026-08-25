@@ -1,0 +1,10 @@
+Set up during Super 30
+
+Python - version
+Pip working
+VS code
+Python in vs code extension
+
+
+Tummy-tuck-picture-gallery
+Tummy tuck-gallery
