@@ -1,6 +1,6 @@
 # String Cleaning Challenge
 
-message = " Welcome To Python Programming Class "
+message = "   Welcome To Python Programming Class   "
 
 print("Original Message:", message)
 
@@ -43,3 +43,18 @@ print("Position of Programming:", programming_position)
 # Split sentence into words
 words = cleaned_message.split()
 print("Split into words:", words)
+
+# ---------------------------------------
+# Difference Between String Methods
+# ---------------------------------------
+
+print("\n--- Difference Between String Methods ---")
+
+print("strip()  : Removes extra spaces from the beginning and end of a string.")
+print("lower()  : Converts all characters into lowercase.")
+print("upper()  : Converts all characters into uppercase.")
+print("title()  : Capitalizes the first letter of every word.")
+print("replace(): Replaces one text with another text and returns a new string.")
+print("find()   : Returns the index position of the first matching text.")
+print("count()  : Counts how many times a character or word appears.")
+print("split()  : Breaks a string into a list of words using spaces.")
