@@ -1,0 +1,4 @@
+# Super30 Python Final Loop & Function Project
+# No external packages are required.
+# This project uses only Python built-in features and the standard library.
+# Recommended Python version: 3.10+

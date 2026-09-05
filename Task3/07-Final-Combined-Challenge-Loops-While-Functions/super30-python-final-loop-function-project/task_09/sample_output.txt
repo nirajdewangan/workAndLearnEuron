@@ -1,0 +1,6 @@
+Enter range start: 1
+Enter range end: 50
+Prime Numbers: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+Prime Count: 15
+Prime Sum: 328
+Largest Prime: 47

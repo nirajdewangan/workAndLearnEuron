@@ -1,0 +1,6 @@
+Enter password: Niraj!123
+Strong Password
+
+
+Enter password: niraj123
+Weak Password. Missing: uppercase letter, special character

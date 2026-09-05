@@ -1,0 +1,49 @@
+--- BANKING APPLICATION ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter choice: 1
+Current Balance: ₹ 10000
+
+--- BANKING APPLICATION ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter choice: 2
+Enter deposit amount: ₹1000
+Deposit successful.
+
+--- BANKING APPLICATION ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter choice: 3
+Enter withdrawal amount: ₹100
+Withdrawal successful.
+
+--- BANKING APPLICATION ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter choice: 4
+
+Transaction History:
+- Deposited ₹1000.0
+- Withdrew ₹100.0
+
+--- BANKING APPLICATION ---
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Exit
+Enter choice: 5
+Exiting Banking Application.

@@ -1,0 +1,25 @@
+
+--- PYTHON QUIZ ---
+
+ Which keyword is used to create a function?
+Your answer: def
+Correct!
+
+ Which loop is condition controlled?
+Your answer: while
+Correct!
+
+ Which function gives the length of a list?
+Your answer: len
+Correct!
+
+ Which keyword immediately exits a loop?
+Your answer: break
+Correct!
+
+ Which symbol starts a Python comment?
+Your answer: #
+Correct!
+
+Final Score: 5 / 5
+Percentage: 100.0 %

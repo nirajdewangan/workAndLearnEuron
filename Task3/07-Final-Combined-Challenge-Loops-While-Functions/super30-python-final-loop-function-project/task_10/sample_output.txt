@@ -1,0 +1,58 @@
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 1
+Enter expense name: food
+Enter amount: ₹25000
+Expense added.
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 1
+Enter expense name: rent 30000
+Enter amount: ₹30000
+Expense added.
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 2
+food - ₹ 25000.0
+rent 30000 - ₹ 30000.0
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 3
+Total Expenses: ₹ 55000.0
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 4
+Highest Expense: rent 30000 - ₹ 30000.0
+
+--- EXPENSE TRACKER ---
+1. Add Expense
+2. View Expenses
+3. Calculate Total
+4. Highest Expense
+5. Exit
+Enter choice: 5

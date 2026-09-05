@@ -1,0 +1,114 @@
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 1
+Enter first number: 2
+Enter second number: 3
+Result: 5.0
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 2
+Enter text: madam
+Palindrome
+
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 3
+Enter number: 7
+Prime Number
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 4
+Enter number: 5
+Factorial: 120
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 5
+Enter number: 8
+8 x 1 = 8
+8 x 2 = 16
+8 x 3 = 24
+8 x 4 = 32
+8 x 5 = 40
+8 x 6 = 48
+8 x 7 = 56
+8 x 8 = 64
+8 x 9 = 72
+8 x 10 = 80
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 6
+Enter number: 8
+Parity: Even
+Sign: Positive
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 7
+Enter password: Niraj!123 
+Strong Password
+
+--- SUPER30 PYTHON UTILITY APPLICATION ---
+1. Calculator
+2. Palindrome Checker
+3. Prime Checker
+4. Factorial Calculator
+5. Multiplication Table
+6. Number Analyzer
+7. Password Strength Checker
+8. Exit
+Enter choice: 8
+Exiting Utility Application.

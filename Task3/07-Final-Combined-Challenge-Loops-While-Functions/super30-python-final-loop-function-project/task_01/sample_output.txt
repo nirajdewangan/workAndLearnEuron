@@ -1,0 +1,12 @@
+--- STUDENT RESULT MANAGEMENT SYSTEM ---
+Enter marks for subject 1: 95 
+Enter marks for subject 2: 90
+Enter marks for subject 3: 91
+Enter marks for subject 4: 92
+Enter marks for subject 5: 94
+
+Marks: [95.0, 90.0, 91.0, 92.0, 94.0]
+Total: 462.0
+Percentage: 92.4 %
+Grade: A+
+Result: Pass

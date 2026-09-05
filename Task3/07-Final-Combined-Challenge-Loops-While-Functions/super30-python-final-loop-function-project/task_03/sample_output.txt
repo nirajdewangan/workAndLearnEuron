@@ -1,0 +1,66 @@
+--- INVENTORY MANAGEMENT ---
+1. Add Product
+2. Display Products
+3. Search Product
+4. Update Quantity
+5. Total Inventory Value
+6. Exit
+Enter choice: 1
+Enter product name: Laptop
+Enter price: 2000000
+Enter quantity: 5
+Product added successfully.
+
+--- INVENTORY MANAGEMENT ---
+1. Add Product
+2. Display Products
+3. Search Product
+4. Update Quantity
+5. Total Inventory Value
+6. Exit
+Enter choice: 2
+
+Inventory:
+Laptop - Price: ₹ 2000000.0 - Quantity: 5
+
+--- INVENTORY MANAGEMENT ---
+1. Add Product
+2. Display Products
+3. Search Product
+4. Update Quantity
+5. Total Inventory Value
+6. Exit
+Enter choice: 3
+Enter product name to search: Laptop
+Laptop {'price': 2000000.0, 'quantity': 5}
+
+--- INVENTORY MANAGEMENT ---
+1. Add Product
+2. Display Products
+3. Search Product
+4. Update Quantity
+5. Total Inventory Value
+6. Exit
+Enter choice: 4
+Enter product name: Laptop
+Enter new quantity: 10
+Quantity updated.
+
+--- INVENTORY MANAGEMENT ---
+1. Add Product
+2. Display Products
+3. Search Product
+4. Update Quantity
+5. Total Inventory Value
+6. Exit
+Enter choice: 5
+Total Inventory Value: ₹ 20000000.0
+
+--- INVENTORY MANAGEMENT ---
+1. Add Product
+2. Display Products
+3. Search Product
+4. Update Quantity
+5. Total Inventory Value
+6. Exit
+Enter choice: 6

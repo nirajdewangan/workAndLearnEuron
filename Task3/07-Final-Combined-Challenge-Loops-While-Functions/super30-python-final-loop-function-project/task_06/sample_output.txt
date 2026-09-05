@@ -1,0 +1,7 @@
+--- EMPLOYEE SALARY ANALYZER ---
+Salaries: [35000, 50000, 42000, 75000, 60000, 90000]
+Total Payroll: 352000
+Average Salary: 58666.666666666664
+Highest Salary: 90000
+Lowest Salary: 35000
+Above Average Salaries: [75000, 60000, 90000]
