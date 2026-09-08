@@ -2,7 +2,14 @@
 # 5. NUMBER ANALYSIS TOOL
 # No min(), max(), sum()
 # ============================================================
-
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 def analyze_numbers(numbers):
     """Analyze a list without min(), max(), or sum()."""
 

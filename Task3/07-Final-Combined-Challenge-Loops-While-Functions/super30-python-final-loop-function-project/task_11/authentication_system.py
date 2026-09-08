@@ -1,7 +1,14 @@
 # ============================================================
 # 11. MINI AUTHENTICATION SYSTEM
 # ============================================================
-
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 def authenticate(username, password):
     """Check username and password."""
     correct_username = "admin"

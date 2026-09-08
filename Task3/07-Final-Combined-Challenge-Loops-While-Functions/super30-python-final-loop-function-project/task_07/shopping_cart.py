@@ -1,11 +1,18 @@
 # ============================================================
 # 7. SHOPPING CART
 # ============================================================
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 def cart_add(cart):
     """Add a product to shopping cart."""
     name = input("Enter product name: ")
-    price = float(input("Enter product price: ₹"))
+    price = get_valid_float("Enter product price: ₹")
 
     cart.append({
         "name": name,

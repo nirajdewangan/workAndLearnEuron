@@ -1,7 +1,14 @@
 # ============================================================
 # 8. PASSWORD STRENGTH CHECKER
 # ============================================================
-
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 def check_password_strength(password):
     """Check password requirements and return a meaningful result."""
 

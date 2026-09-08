@@ -1,7 +1,14 @@
 # ============================================================
 # 9. PRIME NUMBER ANALYZER
 # ============================================================
-
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 def is_prime(number):
     """Return True if number is prime."""
     if number <= 1:

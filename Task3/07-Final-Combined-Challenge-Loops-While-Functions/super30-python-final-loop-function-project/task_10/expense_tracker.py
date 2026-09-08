@@ -1,11 +1,18 @@
 # ============================================================
 # 10. EXPENSE TRACKER
 # ============================================================
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 def add_expense(expenses):
     """Add a new expense."""
     name = input("Enter expense name: ")
-    amount = float(input("Enter amount: ₹"))
+    amount = get_valid_float("Enter amount: ₹")
 
     expenses.append({
         "name": name,

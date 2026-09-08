@@ -1,7 +1,14 @@
 # ============================================================
 # 4. QUIZ APPLICATION
 # ============================================================
-
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 def quiz_application():
     """Run a five-question Python quiz."""
 

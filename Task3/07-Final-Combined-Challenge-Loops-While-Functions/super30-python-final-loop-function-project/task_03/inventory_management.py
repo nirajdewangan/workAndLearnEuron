@@ -1,12 +1,19 @@
 # ============================================================
 # 3. INVENTORY MANAGEMENT
 # ============================================================
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 def add_inventory_product(products):
     """Add a product to inventory."""
     name = input("Enter product name: ")
-    price = float(input("Enter price: "))
-    quantity = int(input("Enter quantity: "))
+    price = get_valid_float("Enter price: ")
+    quantity = int(get_valid_float("Enter quantity: "))
 
     products[name] = {
         "price": price,

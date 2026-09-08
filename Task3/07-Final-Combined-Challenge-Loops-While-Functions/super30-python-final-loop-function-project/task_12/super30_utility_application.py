@@ -1,6 +1,13 @@
 # ============================================================
 # 12. SUPER30 PYTHON UTILITY APPLICATION
 # ============================================================
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 def utility_add(a, b):
     """Return addition result."""
@@ -9,8 +16,8 @@ def utility_add(a, b):
 
 def utility_calculator():
     """Simple calculator utility."""
-    a = float(input("Enter first number: "))
-    b = float(input("Enter second number: "))
+    a = get_valid_float("Enter first number: ")
+    b = get_valid_float("Enter second number: ")
 
     print("Result:", utility_add(a, b))
 
