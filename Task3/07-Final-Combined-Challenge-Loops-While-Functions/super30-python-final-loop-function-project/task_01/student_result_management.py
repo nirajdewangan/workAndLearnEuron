@@ -2,12 +2,20 @@
 # 1. STUDENT RESULT MANAGEMENT SYSTEM
 # ============================================================
 
+def get_valid_float(prompt):
+    """Keep asking until the user enters a valid number."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 def accept_marks():
     """Accept marks for five subjects and return them as a list."""
     marks = []
 
     for i in range(1, 6):
-        mark = float(input(f"Enter marks for subject {i}: "))
+        mark = get_valid_float(f"Enter marks for subject {i}: ")
         marks.append(mark)
 
     return marks

@@ -2,3 +2,4 @@
 # No external packages are required.
 # This project uses only Python built-in features and the standard library.
 # Recommended Python version: 3.10+
+# Recommended Python version: pip 26.1+

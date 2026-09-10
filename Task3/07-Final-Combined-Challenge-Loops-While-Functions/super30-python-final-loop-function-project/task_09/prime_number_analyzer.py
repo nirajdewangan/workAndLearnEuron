@@ -1,13 +1,13 @@
 # ============================================================
 # 9. PRIME NUMBER ANALYZER
 # ============================================================
-def get_valid_float(prompt):
-    """Keep asking until the user enters a valid number."""
+def get_valid_int(prompt):
+    """Keep asking until the user enters a valid integer."""
     while True:
         try:
-            return float(input(prompt))
+            return int(input(prompt))
         except ValueError:
-            print("Invalid input. Please enter a valid number.")
+            print("Invalid input. Please enter a valid integer.")
             
 def is_prime(number):
     """Return True if number is prime."""
@@ -63,8 +63,8 @@ def largest_prime(primes):
 
 def prime_number_analyzer():
     """Run Prime Number Analyzer."""
-    start = int(input("Enter range start: "))
-    end = int(input("Enter range end: "))
+    start = get_valid_int("Enter range start: ")
+    end = get_valid_int("Enter range end: ")
 
     primes = find_primes(start, end)
 

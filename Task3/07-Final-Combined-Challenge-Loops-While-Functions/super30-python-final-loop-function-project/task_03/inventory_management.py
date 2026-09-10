@@ -9,11 +9,19 @@ def get_valid_float(prompt):
         except ValueError:
             print("Invalid input. Please enter a valid number.")
 
+def get_valid_int(prompt):
+    """Keep asking until the user enters a valid integer."""
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
+
 def add_inventory_product(products):
     """Add a product to inventory."""
     name = input("Enter product name: ")
     price = get_valid_float("Enter price: ")
-    quantity = int(get_valid_float("Enter quantity: "))
+    quantity = get_valid_int("Enter quantity: ")
 
     products[name] = {
         "price": price,
@@ -59,7 +67,7 @@ def update_inventory_quantity(products):
         print("Product not found.")
         return
 
-    quantity = int(input("Enter new quantity: "))
+    quantity = get_valid_int("Enter new quantity: ")
     products[name]["quantity"] = quantity
 
     print("Quantity updated.")

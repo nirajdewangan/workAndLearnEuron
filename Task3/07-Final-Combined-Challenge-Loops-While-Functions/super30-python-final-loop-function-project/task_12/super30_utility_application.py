@@ -9,6 +9,14 @@ def get_valid_float(prompt):
         except ValueError:
             print("Invalid input. Please enter a valid number.")
 
+def get_valid_int(prompt):
+    """Keep asking until the user enters a valid integer."""
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
+
 def utility_add(a, b):
     """Return addition result."""
     return a + b
@@ -167,7 +175,7 @@ def super30_utility_application():
                 print("Not a palindrome")
 
         elif choice == "3":
-            number = int(input("Enter number: "))
+            number = get_valid_int("Enter number: ")
 
             if is_prime(number):
                 print("Prime Number")
@@ -175,7 +183,7 @@ def super30_utility_application():
                 print("Not a Prime Number")
 
         elif choice == "4":
-            number = int(input("Enter number: "))
+            number = get_valid_int("Enter number: ")
 
             result = utility_factorial(number)
 
@@ -185,11 +193,11 @@ def super30_utility_application():
                 print("Factorial:", result)
 
         elif choice == "5":
-            number = int(input("Enter number: "))
+            number = get_valid_int("Enter number: ")
             utility_multiplication_table(number)
 
         elif choice == "6":
-            number = int(input("Enter number: "))
+            number = get_valid_int("Enter number: ")
 
             parity, sign = utility_number_analyzer(number)
 
