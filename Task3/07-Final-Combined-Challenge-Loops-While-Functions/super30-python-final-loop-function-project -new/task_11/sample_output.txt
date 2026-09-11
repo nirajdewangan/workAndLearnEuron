@@ -1,0 +1,19 @@
+
+--- MINI AUTHENTICATION SYSTEM ---
+Username: niraj
+Password: 123456
+Login failed.
+Attempts remaining: 2
+Username: admin 
+Password: python123
+Login successful.
+
+1. View Dashboard
+2. Logout
+Enter choice: 1
+Welcome to the dashboard.
+
+1. View Dashboard
+2. Logout
+Enter choice: 2
+Logout successful.

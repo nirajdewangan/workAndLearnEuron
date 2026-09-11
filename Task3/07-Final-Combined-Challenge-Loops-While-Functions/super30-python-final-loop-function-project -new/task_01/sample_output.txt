@@ -1,0 +1,37 @@
+--- STUDENT RESULT MANAGEMENT SYSTEM ---
+Enter marks for subject 1: 95 
+Enter marks for subject 2: 90
+Enter marks for subject 3: 91
+Enter marks for subject 4: 92
+Enter marks for subject 5: 94
+
+Marks: [95.0, 90.0, 91.0, 92.0, 94.0]
+Total: 462.0
+Percentage: 92.4 %
+Grade: A+
+Result: Pass
+
+
+--- STUDENT RESULT MANAGEMENT SYSTEM ---
+
+Enter marks for subject 1 (0-100): -10
+Marks must be between 0 and 100.
+
+Enter marks for subject 1 (0-100): abc
+Invalid input. Please enter a valid number.
+
+Enter marks for subject 1 (0-100): 95
+
+Enter marks for subject 2 (0-100): 120
+Marks must be between 0 and 100.
+
+Enter marks for subject 2 (0-100): 90
+Enter marks for subject 3 (0-100): 91
+Enter marks for subject 4 (0-100): 92
+Enter marks for subject 5 (0-100): 94
+
+Marks: [95.0, 90.0, 91.0, 92.0, 94.0]
+Total: 462.0
+Percentage: 92.4 %
+Grade: A+
+Result: Pass

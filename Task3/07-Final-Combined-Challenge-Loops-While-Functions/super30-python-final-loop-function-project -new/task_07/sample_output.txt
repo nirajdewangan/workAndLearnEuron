@@ -1,0 +1,59 @@
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 1
+Enter product name: laptop
+Enter product price: ₹200000
+Product added.
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 1 
+Enter product name: mobile
+Enter product price: ₹230000
+Product added.
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 2
+Enter product name to remove: mobile
+Product removed.
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 3
+
+Shopping Cart:
+laptop - ₹ 200000.0
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 4
+Total Bill: ₹ 200000.0
+
+--- SHOPPING CART ---
+1. Add Product
+2. Remove Product
+3. View Cart
+4. Calculate Bill
+5. Exit
+Enter choice: 5
