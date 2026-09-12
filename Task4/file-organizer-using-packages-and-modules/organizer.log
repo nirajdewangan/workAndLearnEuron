@@ -8,3 +8,12 @@
 [2026-09-12 19:11:04] [FAILED] Unsupported file 'program.py': Unsupported file type: .py
 [2026-09-12 19:11:04] [SUCCESS] Created destination folder: test_files/Documents
 [2026-09-12 19:11:04] [SUCCESS] Moved 'report.pdf' to 'test_files/Documents/report.pdf'
+[2026-09-12 21:20:38] [SUCCESS] Created destination folder: test_files_new/Text
+[2026-09-12 21:20:38] [SUCCESS] Moved 'notes.txt' to 'test_files_new/Text/notes.txt'
+[2026-09-12 21:20:38] [SUCCESS] Created destination folder: test_files_new/Data
+[2026-09-12 21:20:38] [SUCCESS] Moved 'data.csv' to 'test_files_new/Data/data.csv'
+[2026-09-12 21:20:38] [SUCCESS] Created destination folder: test_files_new/Images
+[2026-09-12 21:20:38] [SUCCESS] Moved 'photo.jpg' to 'test_files_new/Images/photo.jpg'
+[2026-09-12 21:20:38] [FAILED] Unsupported file 'program.py': Unsupported file type: .py
+[2026-09-12 21:20:38] [SUCCESS] Created destination folder: test_files_new/Documents
+[2026-09-12 21:20:38] [SUCCESS] Moved 'report.pdf' to 'test_files_new/Documents/report.pdf'
