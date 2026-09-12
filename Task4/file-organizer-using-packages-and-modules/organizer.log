@@ -1,0 +1,10 @@
+[2026-09-12 19:10:54] [FAILED] Source folder not found: test_files_new
+[2026-09-12 19:11:04] [SUCCESS] Created destination folder: test_files/Text
+[2026-09-12 19:11:04] [SUCCESS] Moved 'notes.txt' to 'test_files/Text/notes.txt'
+[2026-09-12 19:11:04] [SUCCESS] Created destination folder: test_files/Data
+[2026-09-12 19:11:04] [SUCCESS] Moved 'data.csv' to 'test_files/Data/data.csv'
+[2026-09-12 19:11:04] [SUCCESS] Created destination folder: test_files/Images
+[2026-09-12 19:11:04] [SUCCESS] Moved 'photo.jpg' to 'test_files/Images/photo.jpg'
+[2026-09-12 19:11:04] [FAILED] Unsupported file 'program.py': Unsupported file type: .py
+[2026-09-12 19:11:04] [SUCCESS] Created destination folder: test_files/Documents
+[2026-09-12 19:11:04] [SUCCESS] Moved 'report.pdf' to 'test_files/Documents/report.pdf'
