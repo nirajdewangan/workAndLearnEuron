@@ -1,0 +1,20 @@
+2026-09-13 16:11:37,822 - DEBUG - Application initialization completed.
+2026-09-13 16:11:37,822 - INFO - Application started.
+2026-09-13 16:11:42,666 - DEBUG - Menu option selected: 1
+2026-09-13 16:12:01,515 - DEBUG - Login attempt received for username: admin
+2026-09-13 16:12:01,516 - INFO - User logged in successfully: admin
+2026-09-13 16:12:05,865 - DEBUG - Menu option selected: 2
+2026-09-13 16:12:19,333 - DEBUG - Calculation requested: 1.0 + 5.0
+2026-09-13 16:12:19,334 - INFO - Calculation completed successfully.
+2026-09-13 16:12:19,334 - DEBUG - Calculation result: 6.0
+2026-09-13 16:12:23,594 - DEBUG - Menu option selected: 3
+2026-09-13 16:13:43,436 - DEBUG - Attempting to read file: data/sample.txt
+2026-09-13 16:13:43,449 - INFO - File read successfully: data/sample.txt
+2026-09-13 16:13:49,323 - DEBUG - Menu option selected: 4
+2026-09-13 16:14:40,013 - DEBUG - Attempting to write file: data/sample.txt
+2026-09-13 16:14:40,021 - INFO - File written successfully: data/sample.txt
+2026-09-13 16:14:43,207 - DEBUG - Menu option selected: 5
+2026-09-13 16:14:43,207 - INFO - User logged out: admin
+2026-09-13 16:14:49,338 - DEBUG - Menu option selected: 6
+2026-09-13 16:14:49,340 - INFO - Application closed normally.
+2026-09-13 16:14:49,340 - DEBUG - Application cleanup completed.
