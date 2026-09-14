@@ -5,3 +5,10 @@
 2026-09-12 22:59:47,860 - ERROR - Missing student information: Student name is missing.
 2026-09-12 22:59:47,860 - INFO - Successfully processed student: Rohan
 2026-09-12 22:59:47,860 - INFO - Successfully processed student: Anjali
+2026-09-13 17:08:14,980 - INFO - Successfully processed student: Rahul
+2026-09-13 17:08:14,980 - INFO - Successfully processed student: Priya
+2026-09-13 17:08:14,980 - ERROR - Invalid marks for student Amit: Non-numeric mark received: abc
+2026-09-13 17:08:14,980 - ERROR - Invalid marks for student Neha: Mark 120.0 must be between 0 and 100.
+2026-09-13 17:08:14,980 - ERROR - Missing student information: Student name is missing.
+2026-09-13 17:08:14,980 - INFO - Successfully processed student: Rohan
+2026-09-13 17:08:14,980 - INFO - Successfully processed student: Anjali
