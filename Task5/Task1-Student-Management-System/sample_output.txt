@@ -1,0 +1,38 @@
+STUDENT MANAGEMENT SYSTEM
+
+--- Student Details ---
+Name       : Aarav Sharma
+Email      : aarav@example.com
+Student ID : STU101
+Course     : Python Programming
+Marks      : [85, 90, 78]
+Average    : 84.33
+
+--- Student Details ---
+Name       : Diya Verma
+Email      : diya@example.com
+Student ID : STU102
+Course     : Data Science
+Marks      : [92, 88, 95]
+Average    : 91.67
+
+--- Student Details ---
+Name       : Rohan Gupta
+Email      : rohan@example.com
+Student ID : STU103
+Course     : Web Development
+Marks      : [75, 82, 80]
+Average    : 79.00
+
+--- Updating Marks ---
+Marks updated successfully for Aarav Sharma.
+
+--- Student Details ---
+Name       : Aarav Sharma
+Email      : aarav@example.com
+Student ID : STU101
+Course     : Python Programming
+Marks      : [85, 90, 88]
+Average    : 87.67
+
+Total number of students: 3
