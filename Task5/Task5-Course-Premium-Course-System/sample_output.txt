@@ -1,0 +1,35 @@
+ONLINE LEARNING PLATFORM
+
+--- Course Details ---
+Course Name : Python Fundamentals
+Instructor  : Anita Sharma
+Duration    : 6 weeks
+Price       : Rs. 4000.00
+
+--- Course Details ---
+Course Name : Web Development Basics
+Instructor  : Rahul Verma
+Duration    : 8 weeks
+Price       : Rs. 6000.00
+
+--- PremiumCourse Details ---
+Course Name : Full Stack Development
+Instructor  : Vikram Singh
+Duration    : 16 weeks
+Price       : Rs. 18000.00
+Mentor Support : Dedicated mentor
+Live Sessions  : 12
+
+--- PremiumCourse Details ---
+Course Name : Data Science Mastery
+Instructor  : Priya Mehta
+Duration    : 20 weeks
+Price       : Rs. 25000.00
+Mentor Support : One-to-one mentor
+Live Sessions  : 16
+
+--- Discount Demonstration ---
+Python Fundamentals after 10% discount: Rs. 3600.00
+Full Stack Development after 20% discount: Rs. 14400.00
+
+Total courses created: 4

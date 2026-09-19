@@ -1,0 +1,67 @@
+SUPER30 LEARNING PLATFORM
+
+--- Assigning Courses ---
+Python Backend Development assigned to Aarav Sharma.
+Full Stack Web Development assigned to Diya Verma.
+Data Science Fundamentals assigned to Rohan Gupta.
+
+--- Submitting Assignments ---
+Aarav Sharma submitted Python OOP Assignment.
+Aarav Sharma submitted File Handling Assignment.
+Diya Verma submitted HTML and CSS Project.
+Rohan Gupta submitted Data Analysis Assignment.
+
+--- Assigning Students to Mentors ---
+Aarav Sharma assigned to mentor Neha Singh.
+Rohan Gupta assigned to mentor Neha Singh.
+Diya Verma assigned to mentor Kabir Mehta.
+
+--- Student Information ---
+
+Student Details
+User ID : STU101
+Name    : Aarav Sharma
+Email   : aarav@example.com
+Course  : Python Backend Development
+Completed Assignments: 2
+Assignment List      : Python OOP Assignment, File Handling Assignment
+
+Student Details
+User ID : STU102
+Name    : Diya Verma
+Email   : diya@example.com
+Course  : Full Stack Web Development
+Completed Assignments: 1
+Assignment List      : HTML and CSS Project
+
+Student Details
+User ID : STU103
+Name    : Rohan Gupta
+Email   : rohan@example.com
+Course  : Data Science Fundamentals
+Completed Assignments: 1
+Assignment List      : Data Analysis Assignment
+
+--- Mentor Information ---
+
+Mentor Details
+User ID : MEN201
+Name    : Neha Singh
+Email   : neha@example.com
+Expertise         : Python
+Students Assigned : 2
+Student List      : Aarav Sharma, Rohan Gupta
+
+Mentor Details
+User ID : MEN202
+Name    : Kabir Mehta
+Email   : kabir@example.com
+Expertise         : Web Development
+Students Assigned : 1
+Student List      : Diya Verma
+
+--- Static Method Demonstration ---
+Is learner@example.com valid? True
+Is learner.example.com valid? False
+
+Total registered users: 5

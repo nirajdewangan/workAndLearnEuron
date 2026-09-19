@@ -1,0 +1,42 @@
+VEHICLE RENTAL SYSTEM
+Total vehicles available: 4
+
+--- Car Details ---
+Vehicle Number : KA01AB1234
+Brand          : Hyundai
+Model          : Creta
+Rent Per Day   : Rs. 2500.00
+Number of Seats: 5
+Rental Duration: 3 days
+Total Rent     : Rs. 7500.00
+
+--- Car Details ---
+Vehicle Number : KA02CD5678
+Brand          : Maruti Suzuki
+Model          : Ertiga
+Rent Per Day   : Rs. 3000.00
+Number of Seats: 7
+Rental Duration: 5 days
+Total Rent     : Rs. 15000.00
+
+--- Bike Details ---
+Vehicle Number : KA03EF9012
+Brand          : Royal Enfield
+Model          : Classic 350
+Rent Per Day   : Rs. 1200.00
+Engine Capacity: 349 cc
+Rental Duration: 2 days
+Total Rent     : Rs. 2400.00
+
+--- Bike Details ---
+Vehicle Number : KA04GH3456
+Brand          : Yamaha
+Model          : R15
+Rent Per Day   : Rs. 900.00
+Engine Capacity: 155 cc
+Rental Duration: 7 days
+Total Rent     : Rs. 6300.00
+
+--- Rental Duration Validation ---
+Is 5 days valid? True
+Is 0 days valid? False
