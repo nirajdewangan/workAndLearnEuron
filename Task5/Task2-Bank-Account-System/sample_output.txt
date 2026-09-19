@@ -1,0 +1,38 @@
+BANK ACCOUNT SYSTEM
+
+--- Account Details ---
+Bank Name      : Python National Bank
+Account Holder : Aarav Sharma
+Account Number : PNB1001
+Balance        : Rs. 10000.00
+
+--- Account Details ---
+Bank Name      : Python National Bank
+Account Holder : Diya Verma
+Account Number : PNB1002
+Balance        : Rs. 15000.00
+
+--- Transactions for Aarav Sharma ---
+Deposit successful: Rs. 2500.00
+Withdrawal successful: Rs. 3000.00
+Current balance: Rs. 9500.00
+
+--- Invalid Withdrawal Test ---
+Withdrawal failed: Insufficient balance.
+
+--- Changing Bank Name ---
+Bank name changed to Python International Bank.
+
+--- Account Details ---
+Bank Name      : Python International Bank
+Account Holder : Aarav Sharma
+Account Number : PNB1001
+Balance        : Rs. 9500.00
+
+--- Account Details ---
+Bank Name      : Python International Bank
+Account Holder : Diya Verma
+Account Number : PNB1002
+Balance        : Rs. 15000.00
+
+Total bank accounts created: 2

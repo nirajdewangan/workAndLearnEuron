@@ -1,0 +1,24 @@
+EMPLOYEE AND DEVELOPER SYSTEM
+Total objects created: 3
+
+--- Employee Details ---
+Employee ID : EMP101
+Name        : Ananya Singh
+Salary      : Rs. 50000.00
+Department  : Human Resources
+
+--- Developer Details ---
+Employee ID : DEV201
+Name        : Aarav Sharma
+Salary      : Rs. 75000.00
+Department  : Engineering
+Language    : Python
+Experience  : 3 years
+
+--- Developer Details ---
+Employee ID : DEV202
+Name        : Diya Verma
+Salary      : Rs. 90000.00
+Department  : Product Development
+Language    : JavaScript
+Experience  : 5 years

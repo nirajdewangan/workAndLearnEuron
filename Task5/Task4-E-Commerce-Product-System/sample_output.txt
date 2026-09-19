@@ -1,0 +1,53 @@
+E-COMMERCE PRODUCT SYSTEM
+Total products created: 5
+
+--- Product Details ---
+Product ID : P101
+Name       : Laptop
+Price      : Rs. 55000.00
+Category   : Electronics
+Stock      : 8
+
+--- Product Details ---
+Product ID : P102
+Name       : Wireless Headphones
+Price      : Rs. 2500.00
+Category   : Electronics
+Stock      : 25
+
+--- Product Details ---
+Product ID : P103
+Name       : Python Programming Book
+Price      : Rs. 799.00
+Category   : Books
+Stock      : 40
+
+--- Product Details ---
+Product ID : P104
+Name       : Running Shoes
+Price      : Rs. 3200.00
+Category   : Fashion
+Stock      : 20
+
+--- Product Details ---
+Product ID : P105
+Name       : Smart Watch
+Price      : Rs. 6500.00
+Category   : Wearables
+Stock      : 15
+
+--- Buying Products ---
+Stock updated for Laptop: 6 units
+Purchased 2 x Laptop for Rs. 110000.00
+Stock updated for Python Programming Book: 37 units
+Purchased 3 x Python Programming Book for Rs. 2397.00
+
+--- Manual Stock Update ---
+Stock updated for Wireless Headphones: 30 units
+
+--- Insufficient Stock Test ---
+Purchase failed for Smart Watch: Only 15 units are available.
+
+--- Price Validation ---
+Is Rs. 500 a valid price? True
+Is Rs. -50 a valid price? False
