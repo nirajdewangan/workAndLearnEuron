@@ -1,0 +1,83 @@
+step1:
+git main (from main)
+f12345-admin-module-ram
+
+Git add or git stash
+git commit -m "f12345-admin-module-ram"
+git push origin main
+
+step2:
+learning -platform
+The team needs to develop Student, Mentor, Course, Payment, and Admin modules. (oops) class , instance methods , object instances
+
+(abstraction , inheritance , polymorphism)
+
+from abc import ABC, abstractmethods
+
+class  User(ABC) :
+def init(user_iduser_name, email):
+
+@abstractmethod
+def user_type():
+
+step-3: polymorphism
+PaymentMenthod -> runtime polymorphism
+Interface -> pay(amount) refund(paymentID)
+
+class PaymentMethod(ABC):
+
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+class UPIPayment(PaymentMethod):
+    def pay(self, amount):
+        return f"₹{amount} paid through UPI"
+
+class CardPayment(PaymentMethod):
+    def pay(self, amount):
+        return f"₹{amount} paid through card"
+
+class NetbankingPayment(PaymentMethod):
+    def pay(self, amount):
+        return f"₹{amount} paid through Netbanking"        
+
+def checkout(method: PaymentMethod, amount):
+    return method.pay(amount)
+
+
+class Student(User):
+  def __init__(self, user_id, user_name, email, enrolled_course):
+    super().__init__(user_id, user_name, email)
+    self.enrolled_course = enrolled_course
+  
+  def user_type(seld):
+    return "Student"
+  
+  def study(self)
+    return f"{self.user_name} is studying {self.enrolled_course}"
+
+class Mentor(User):
+  def __init__(self, user_id, user_name, email, expertize):
+    super().__init__(user_id, user_name, email)
+    self.expertize = expertize
+
+  def user_type(seld):
+    return "Mentor"
+  
+  def teach(self)
+    return f"{self.user_name} is teaching {self.expertize}"
+
+Duplicate functionality:
+Msg & notification -> NotificationService
+Custom Exception -> customExceptionMethod
+
+Reviewer disagree with Implementation:
+-> Reviewer should describe the concrete risk(performance, efficiency) or why any python/any package version need to upgrade or migration
+-> team should refer to requirement and coding standard
+-> PR must not be merged until the required changes are resolved
+
+
+
+Handling the merge conflict:
+
