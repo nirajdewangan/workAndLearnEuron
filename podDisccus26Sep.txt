@@ -55,7 +55,7 @@ class Student(User):
     return "Student"
   
   def study(self)
-    return f"{self.user_name} is learning {self.enrolled_course}"
+    return f"{self.user_name} has started {self.enrolled_course}"
 
 class Mentor(User):
   def __init__(self, user_id, user_name, email, expertize):
