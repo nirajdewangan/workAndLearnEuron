@@ -1,0 +1,33 @@
+https://hub.docker.com/
+
+docker pull ubuntu
+
+docker run ubuntu
+docker run -it ubuntu bash
+
+Yum -- for linux
+apt --- for ubuntu
+
+apt update
+
+apt install -y python3 python3-pip
+
+docker run -d --name mysql-db -e MYSQL_ROOT_PASSWORD=RootPass123 -e MYSQL_DATABASE=euron_db -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.4
+
+
+
+docker run -d --name phpmyadmin --network mysql-network -e PMA_HOST=mysql-db -e PMA_PORT=3306 -p 127.0.0.1:8080:80 phpmyadmin:latest
+
+
+
+docker pull lscr.io/linuxserver/webtop:ubuntu-xfce
+
+docker build -t mu-firstapi .
+
+
+docker run -d --name sudh-container -p 5002:8000 mu-firstapi  
+
+docker compose -f ./Dockercompose.yaml up -d
+
+
+

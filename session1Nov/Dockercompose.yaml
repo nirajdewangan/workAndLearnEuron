@@ -1,0 +1,21 @@
+services:
+  fastapi1:
+    image: mu-firstapi
+    ports:
+      - "5008:8000"
+  fastapi2:
+    image: mu-firstapi
+    ports:
+      - "5009:8000"
+  fastapi3:
+    image: mu-firstapi
+    ports:
+      - "5010:8000"
+  fastapi4:
+    image: mu-firstapi
+    ports:
+      - "5011:8000"
+  fastapi5:
+    image: mu-firstapi
+    ports:
+      - "5012:8000"
